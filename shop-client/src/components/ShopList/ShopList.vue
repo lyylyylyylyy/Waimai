@@ -4,7 +4,7 @@
       <li class="shop_li border-1px" v-for="(item, index) in shops" :key="index" @click="$router.push('/shop')">
         <a>
           <div class="shop_left">
-            <img class="shop_img" :src="imgBaseUrl + item.image_path">
+            <img class="shop_img" :src="info.avatar">
           </div>
           <div class="shop_right">
             <section class="shop_detail_header">
@@ -57,7 +57,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(['shops'])
+    ...mapState(['shops', 'info'])
   },
   components: {
     Star
