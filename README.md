@@ -132,4 +132,8 @@
     
 
 ### 运行效果
-![Image text](img/1.png)
+                                                  ![Image text](img/1.png)     
+                                                  ![Image text](img/2.png)
+						  ![Image text](img/3.png)
+						  ![Image text](img/4.png)
+						  ![Image text](img/5.png)
